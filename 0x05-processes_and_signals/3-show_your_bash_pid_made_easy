@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# shows pids of bash
+
+pgrep bash -l

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# stops 4-infinity-and-beyond
+
+process=$(pgrep "4-to_infinity_and_beyond")
+kill "$process"

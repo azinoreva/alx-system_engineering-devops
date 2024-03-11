@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# stops 7-highlander anyway
+
+process_name="7-highlander"
+pkill -SIGKILL "$process_name"
